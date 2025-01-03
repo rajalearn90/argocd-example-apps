@@ -18,3 +18,5 @@ spec:
         name: guestbook-ui
         ports:
         - containerPort: 5555
+        imagePullSecrets:
+      - name: docker-hub-cred
